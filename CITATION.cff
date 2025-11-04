@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use or build upon this work, please cite it as follows."
+title: "The inComplete System of Productive Self-Reference (Φ³/LGPDT)"
+authors:
+  - family-names: "Sáez Acevedo"
+    given-names: "Felipe Andrés"
+    alias: "Wanaband"
+    affiliation: "WANABAND Φ³ Project, Limache, Chile"
+    email: "wanaband.phi3@gmail.com"
+version: "v7.0"
+doi: "10.5281/zenodo.17460845"
+url: "https://github.com/felipewanaban/Phi3-AGI-Logic"
+license: "CC-BY-NC-SA-4.0"
+type: "software"
+repository-code: "https://github.com/felipewanaban/Phi3-AGI-Logic"
+abstract: >
+  The inComplete System of Productive Self-Reference presents Φ³/LGPDT as a unified
+  framework that turns Gödelian incompleteness into a generative principle for logic,
+  biology, and AGI architecture. This repository hosts the official English reference
+  volume for public citation and Zenodo-backed releases.
+keywords:
+  - Paraconsistent logic
+  - Dynamic topoi
+  - Generative incompleteness
+  - Self-reference
+  - Hofstadter
+  - Gödel
+  - AGI architecture
+  - Kolmogorov complexity
+  - Third-order philosophy
+date-released: "2025-11-02"
