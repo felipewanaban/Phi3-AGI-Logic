@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="evoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#fefefe"/>
+
+  <!-- Title -->
+  <text x="600" y="45" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    The Meta-Level G-V-F: Evolution Producing G-V-F Systems
+  </text>
+  <text x="600" y="75" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">
+    Recursive Pattern: Generate-Validate-Filter Architecture Creates Systems That Implement G-V-F
+  </text>
+
+  <!-- Central: EVOLUTION as Meta-G-V-F -->
+  <circle cx="600" cy="320" r="140" fill="url(#evoGrad)" filter="url(#glow)"/>
+  <text x="600" y="290" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+    EVOLUTION
+  </text>
+  <text x="600" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="white">
+    Meta-Level G-V-F
+  </text>
+  <text x="600" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="white">
+    (Billions of years)
+  </text>
+
+  <!-- Evolution's G-V-F components -->
+  <rect x="430" y="130" width="100" height="50" rx="8" fill="#667eea"/>
+  <text x="480" y="160" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">G: Mutation</text>
+  
+  <rect x="550" y="130" width="100" height="50" rx="8" fill="#f5576c"/>
+  <text x="600" y="160" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">V: Selection</text>
+  
+  <rect x="670" y="130" width="100" height="50" rx="8" fill="#00b4d8"/>
+  <text x="720" y="160" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">F: Extinction</text>
+
+  <!-- Arrows from Evolution to produced systems -->
+  <line x1="480" y1="420" x2="200" y2="580" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="540" y1="450" x2="400" y2="580" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="600" y1="460" x2="600" y2="580" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="660" y1="450" x2="800" y2="580" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="720" y1="420" x2="1000" y2="580" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Produced G-V-F Systems -->
+  <!-- 1. Immune System -->
+  <g transform="translate(200, 650)">
+    <circle cx="0" cy="0" r="65" fill="#3498db" opacity="0.8"/>
+    <text x="0" y="-25" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">IMMUNE</text>
+    <text x="0" y="-8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">G: VDJ recomb</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">V: Clonal select</text>
+    <text x="0" y="24" font-family="Arial" font-size="10" text-anchor="middle" fill="white">F: Tolerance</text>
+    <text x="0" y="45" font-family="Arial" font-size="9" text-anchor="middle" fill="white">(Days-Weeks)</text>
+  </g>
+
+  <!-- 2. Neural Development -->
+  <g transform="translate(400, 650)">
+    <circle cx="0" cy="0" r="65" fill="#9b59b6" opacity="0.8"/>
+    <text x="0" y="-25" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">NEURAL</text>
+    <text x="0" y="-8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">G: Synaptogenesis</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">V: Activity-dep</text>
+    <text x="0" y="24" font-family="Arial" font-size="10" text-anchor="middle" fill="white">F: Pruning</text>
+    <text x="0" y="45" font-family="Arial" font-size="9" text-anchor="middle" fill="white">(Months-Years)</text>
+  </g>
+
+  <!-- 3. Embryo Development -->
+  <g transform="translate(600, 650)">
+    <circle cx="0" cy="0" r="65" fill="#27ae60" opacity="0.8"/>
+    <text x="0" y="-25" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">EMBRYO</text>
+    <text x="0" y="-8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">G: Proliferation</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">V: Morphogens</text>
+    <text x="0" y="24" font-family="Arial" font-size="10" text-anchor="middle" fill="white">F: Apoptosis</text>
+    <text x="0" y="45" font-family="Arial" font-size="9" text-anchor="middle" fill="white">(Days-Weeks)</text>
+  </g>
+
+  <!-- 4. Cell Cycle -->
+  <g transform="translate(800, 650)">
+    <circle cx="0" cy="0" r="65" fill="#e67e22" opacity="0.8"/>
+    <text x="0" y="-25" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">CELL CYCLE</text>
+    <text x="0" y="-8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">G: CDK/Cyclin</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">V: Checkpoints</text>
+    <text x="0" y="24" font-family="Arial" font-size="10" text-anchor="middle" fill="white">F: Apoptosis</text>
+    <text x="0" y="45" font-family="Arial" font-size="9" text-anchor="middle" fill="white">(Hours-Days)</text>
+  </g>
+
+  <!-- 5. Microbiome -->
+  <g transform="translate(1000, 650)">
+    <circle cx="0" cy="0" r="65" fill="#1abc9c" opacity="0.8"/>
+    <text x="0" y="-25" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">MICROBIOME</text>
+    <text x="0" y="-8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">G: Colonization</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="white">V: Competition</text>
+    <text x="0" y="24" font-family="Arial" font-size="10" text-anchor="middle" fill="white">F: Exclusion</text>
+    <text x="0" y="45" font-family="Arial" font-size="9" text-anchor="middle" fill="white">(Continuous)</text>
+  </g>
+
+  <!-- Key insight boxes -->
+  <rect x="50" y="770" width="340" height="100" rx="10" fill="#fff3cd" stroke="#ffc107" stroke-width="2"/>
+  <text x="220" y="800" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#856404">RECURSIVE PATTERN</text>
+  <text x="220" y="825" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">G-V-F produces systems</text>
+  <text x="220" y="845" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">that implement G-V-F</text>
+  <text x="220" y="865" font-family="Arial" font-size="11" text-anchor="middle" fill="#777">→ Same logic, different scales</text>
+
+  <rect x="430" y="770" width="340" height="100" rx="10" fill="#d4edda" stroke="#28a745" stroke-width="2"/>
+  <text x="600" y="800" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#155724">WHY CONVERGENCE?</text>
+  <text x="600" y="825" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Only architecture that handles</text>
+  <text x="600" y="845" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">unpredictable challenges</text>
+  <text x="600" y="865" font-family="Arial" font-size="11" text-anchor="middle" fill="#777">→ Necessity, not coincidence</text>
+
+  <rect x="810" y="770" width="340" height="100" rx="10" fill="#f8d7da" stroke="#f5c6cb" stroke-width="2"/>
+  <text x="980" y="800" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#721c24">COMPUTATIONAL SIGNATURE</text>
+  <text x="980" y="825" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">G-V-F is not just a pattern</text>
+  <text x="980" y="845" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">It's the logic of LIFE ITSELF</text>
+  <text x="980" y="865" font-family="Arial" font-size="11" text-anchor="middle" fill="#777">→ Universal biological principle</text>
+
+  <!-- Timescale annotation -->
+  <rect x="900" y="240" width="250" height="140" rx="10" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2"/>
+  <text x="1025" y="270" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">TIMESCALE COMPRESSION</text>
+  <text x="1025" y="295" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Evolution: 10⁹ years</text>
+  <text x="1025" y="315" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Immunity: 10⁰-10¹ days</text>
+  <text x="1025" y="335" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Neural: 10⁰-10¹ years</text>
+  <text x="1025" y="355" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Embryo: 10⁰-10¹ weeks</text>
+  <text x="1025" y="375" font-family="Arial" font-size="11" text-anchor="middle" fill="#777">Same logic, compressed time</text>
+
+  <!-- Figure label -->
+  <text x="600" y="895" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#555">
+    Figure 1. Evolution as Meta-Level G-V-F Producing Biological G-V-F Systems
+  </text>
+</svg>
