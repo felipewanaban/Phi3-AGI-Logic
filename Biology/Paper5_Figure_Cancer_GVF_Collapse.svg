@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cancerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0392b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Cancer as Progressive G-V-F Architectural Collapse
+  </text>
+  <text x="600" y="68" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">
+    Hallmarks of Cancer Map to Generator, Validator, and Filter Dysfunction
+  </text>
+
+  <!-- Normal Cell (Left) -->
+  <rect x="50" y="120" width="220" height="280" rx="15" fill="#27ae60" opacity="0.15" stroke="#27ae60" stroke-width="3"/>
+  <text x="160" y="155" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#27ae60">NORMAL CELL</text>
+  <text x="160" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Balanced G-V-F</text>
+  
+  <circle cx="160" cy="260" r="70" fill="white" stroke="#27ae60" stroke-width="3"/>
+  <text x="160" y="245" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#27ae60">G = V = F</text>
+  <text x="160" y="265" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Controlled</text>
+  <text x="160" y="280" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Proliferation</text>
+  
+  <text x="160" y="360" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Growth factor dependent</text>
+  <text x="160" y="378" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Checkpoints active</text>
+  <text x="160" y="396" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Apoptosis responsive</text>
+
+  <!-- Arrow to cancer -->
+  <path d="M 280 260 L 340 260" stroke="#c0392b" stroke-width="4" fill="none"/>
+  <polygon points="340,250 360,260 340,270" fill="#c0392b"/>
+  <text x="320" y="240" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#c0392b">Multi-hit</text>
+  <text x="320" y="285" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">mutations</text>
+
+  <!-- Cancer Cell (Center) -->
+  <rect x="370" y="120" width="280" height="280" rx="15" fill="url(#cancerGrad)" opacity="0.2" stroke="#c0392b" stroke-width="3"/>
+  <text x="510" y="155" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#c0392b">CANCER CELL</text>
+  <text x="510" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">G-V-F Collapse</text>
+  
+  <circle cx="510" cy="260" r="70" fill="white" stroke="#c0392b" stroke-width="3"/>
+  <text x="510" y="240" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#c0392b">G ↑↑↑</text>
+  <text x="510" y="260" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e67e22">V ↓↓</text>
+  <text x="510" y="280" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#3498db">F ↓↓↓</text>
+  
+  <text x="510" y="360" font-family="Arial" font-size="11" text-anchor="middle" fill="#c0392b">• Autonomous signaling</text>
+  <text x="510" y="378" font-family="Arial" font-size="11" text-anchor="middle" fill="#e67e22">• Checkpoints disabled</text>
+  <text x="510" y="396" font-family="Arial" font-size="11" text-anchor="middle" fill="#3498db">• Death resistance</text>
+
+  <!-- HALLMARKS MAPPING -->
+  <!-- Generator Hyperactivation -->
+  <rect x="700" y="100" width="450" height="160" rx="10" fill="#667eea" opacity="0.15" stroke="#667eea" stroke-width="2" filter="url(#shadow)"/>
+  <text x="925" y="130" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#667eea">
+    GENERATOR HYPERACTIVATION (G ↑)
+  </text>
+  <rect x="720" y="145" width="200" height="100" rx="8" fill="white"/>
+  <text x="820" y="170" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">Oncogenes</text>
+  <text x="820" y="190" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• RAS mutations</text>
+  <text x="820" y="205" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• EGFR amplification</text>
+  <text x="820" y="220" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• MYC overexpression</text>
+  <text x="820" y="235" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Cyclin D amplification</text>
+
+  <rect x="930" y="145" width="200" height="100" rx="8" fill="white"/>
+  <text x="1030" y="170" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">Hallmarks</text>
+  <text x="1030" y="190" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Sustained proliferation</text>
+  <text x="1030" y="205" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Replicative immortality</text>
+  <text x="1030" y="220" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Metabolic reprogramming</text>
+  <text x="1030" y="235" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Telomerase activation</text>
+
+  <!-- Validator Dysfunction -->
+  <rect x="700" y="280" width="450" height="160" rx="10" fill="#f5576c" opacity="0.15" stroke="#f5576c" stroke-width="2" filter="url(#shadow)"/>
+  <text x="925" y="310" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#f5576c">
+    VALIDATOR DYSFUNCTION (V ↓)
+  </text>
+  <rect x="720" y="325" width="200" height="100" rx="8" fill="white"/>
+  <text x="820" y="350" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#f5576c">Tumor Suppressors</text>
+  <text x="820" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• p53 mutations (50%)</text>
+  <text x="820" y="385" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Rb loss</text>
+  <text x="820" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• ATM/ATR defects</text>
+  <text x="820" y="415" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• BRCA mutations</text>
+
+  <rect x="930" y="325" width="200" height="100" rx="8" fill="white"/>
+  <text x="1030" y="350" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#f5576c">Hallmarks</text>
+  <text x="1030" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Evading growth suppressors</text>
+  <text x="1030" y="385" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Genome instability</text>
+  <text x="1030" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Checkpoint bypass</text>
+  <text x="1030" y="415" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Aneuploidy tolerance</text>
+
+  <!-- Filter Compromise -->
+  <rect x="700" y="460" width="450" height="160" rx="10" fill="#00b4d8" opacity="0.15" stroke="#00b4d8" stroke-width="2" filter="url(#shadow)"/>
+  <text x="925" y="490" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#00b4d8">
+    FILTER COMPROMISE (F ↓)
+  </text>
+  <rect x="720" y="505" width="200" height="100" rx="8" fill="white"/>
+  <text x="820" y="530" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Anti-Apoptotic</text>
+  <text x="820" y="550" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Bcl-2 overexpression</text>
+  <text x="820" y="565" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• IAP upregulation</text>
+  <text x="820" y="580" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• PD-L1 expression</text>
+  <text x="820" y="595" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Treg recruitment</text>
+
+  <rect x="930" y="505" width="200" height="100" rx="8" fill="white"/>
+  <text x="1030" y="530" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Hallmarks</text>
+  <text x="1030" y="550" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Resisting cell death</text>
+  <text x="1030" y="565" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Avoiding immune destruction</text>
+  <text x="1030" y="580" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Evading anoikis</text>
+  <text x="1030" y="595" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">• Senescence bypass</text>
+
+  <!-- Therapeutic implications -->
+  <rect x="50" y="450" width="600" height="150" rx="15" fill="#d4edda" stroke="#28a745" stroke-width="2"/>
+  <text x="350" y="480" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#155724">
+    THERAPEUTIC STRATEGY: Restore G-V-F Balance
+  </text>
+  <text x="150" y="515" font-family="Arial" font-size="12" font-weight="bold" fill="#667eea">Suppress G:</text>
+  <text x="150" y="535" font-family="Arial" font-size="11" fill="#555">Targeted therapy</text>
+  <text x="150" y="550" font-family="Arial" font-size="10" fill="#777">(Imatinib, EGFR-i)</text>
+  
+  <text x="350" y="515" font-family="Arial" font-size="12" font-weight="bold" fill="#f5576c">Restore V:</text>
+  <text x="350" y="535" font-family="Arial" font-size="11" fill="#555">DNA damage agents</text>
+  <text x="350" y="550" font-family="Arial" font-size="10" fill="#777">(reactivate p53)</text>
+  
+  <text x="550" y="515" font-family="Arial" font-size="12" font-weight="bold" fill="#00b4d8">Enhance F:</text>
+  <text x="550" y="535" font-family="Arial" font-size="11" fill="#555">Immunotherapy</text>
+  <text x="550" y="550" font-family="Arial" font-size="10" fill="#777">(anti-PD1, CAR-T)</text>
+
+  <text x="350" y="585" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#155724">
+    Optimal therapy addresses ALL THREE levels simultaneously
+  </text>
+
+  <!-- Key insight -->
+  <rect x="50" y="620" width="600" height="60" rx="10" fill="#fff3cd" stroke="#ffc107" stroke-width="2"/>
+  <text x="350" y="650" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#856404">
+    Cancer is NOT "cells dividing too fast" — it's ARCHITECTURAL COLLAPSE
+  </text>
+  <text x="350" y="670" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    Single-level failure rarely produces cancer; malignancy requires multi-level G-V-F dysfunction
+  </text>
+
+  <!-- Figure label -->
+  <text x="600" y="740" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#555">
+    Figure 1. Hallmarks of Cancer as G-V-F Architectural Failures
+  </text>
+  <text x="600" y="765" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">
+    Each hallmark maps to Generator hyperactivation, Validator dysfunction, or Filter compromise
+  </text>
+</svg>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="autismGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecfef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="schizoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Neurodevelopmental Disorders as G-V-F Architectural Failures
+  </text>
+  <text x="600" y="68" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">
+    Opposite Filter Dysfunctions Produce Distinct Clinical Phenotypes
+  </text>
+
+  <!-- Normal development (center reference) -->
+  <rect x="450" y="100" width="300" height="120" rx="15" fill="#27ae60" opacity="0.15" stroke="#27ae60" stroke-width="2"/>
+  <text x="600" y="135" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#27ae60">
+    NORMAL DEVELOPMENT
+  </text>
+  <text x="600" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">G: Adequate overproduction</text>
+  <text x="600" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">V: Proper activity-dependent selection</text>
+  <text x="600" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">F: Balanced pruning (~50% elimination)</text>
+
+  <!-- AUTISM SPECTRUM DISORDER (Left) -->
+  <rect x="50" y="250" width="500" height="400" rx="20" fill="url(#autismGrad)" opacity="0.3" stroke="#e74c3c" stroke-width="3"/>
+  
+  <text x="300" y="290" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#c0392b">
+    AUTISM SPECTRUM DISORDER
+  </text>
+  <text x="300" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#e74c3c">
+    Filter Insufficiency (Under-Pruning)
+  </text>
+
+  <!-- ASD G-V-F status -->
+  <rect x="70" y="340" width="460" height="90" rx="10" fill="white" filter="url(#shadow)"/>
+  <text x="300" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">G-V-F Status</text>
+  <text x="300" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#27ae60">✓ Generator: Normal overproduction</text>
+  <text x="300" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="#27ae60">✓ Validator: Normal activity selection</text>
+  <text x="300" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#c0392b">✗ Filter: INSUFFICIENT pruning</text>
+
+  <!-- ASD Molecular basis -->
+  <rect x="70" y="445" width="220" height="85" rx="8" fill="white" filter="url(#shadow)"/>
+  <text x="180" y="470" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#c0392b">Molecular Basis</text>
+  <text x="180" y="490" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Reduced C4 expression</text>
+  <text x="180" y="508" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Microglial dysfunction</text>
+  <text x="180" y="526" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• mTOR hyperactivation</text>
+
+  <!-- ASD Consequences -->
+  <rect x="310" y="445" width="220" height="85" rx="8" fill="white" filter="url(#shadow)"/>
+  <text x="420" y="470" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#c0392b">Neural Consequences</text>
+  <text x="420" y="490" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Increased spine density</text>
+  <text x="420" y="508" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Larger brain volume (age 2-4)</text>
+  <text x="420" y="526" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Poor signal-to-noise ratio</text>
+
+  <!-- ASD Clinical features -->
+  <rect x="70" y="545" width="460" height="85" rx="8" fill="#ffebee" stroke="#e74c3c" stroke-width="1"/>
+  <text x="300" y="570" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#c0392b">Clinical Manifestations</text>
+  <text x="300" y="592" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Sensory hypersensitivity • Difficulty filtering irrelevant stimuli</text>
+  <text x="300" y="612" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Social communication challenges • Restricted interests • Repetitive behaviors</text>
+
+  <!-- SCHIZOPHRENIA (Right) -->
+  <rect x="650" y="250" width="500" height="400" rx="20" fill="url(#schizoGrad)" opacity="0.2" stroke="#5e35b1" stroke-width="3"/>
+  
+  <text x="900" y="290" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#5e35b1">
+    SCHIZOPHRENIA
+  </text>
+  <text x="900" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#7e57c2">
+    Excessive Filtering (Over-Pruning)
+  </text>
+
+  <!-- SCZ G-V-F status -->
+  <rect x="670" y="340" width="460" height="90" rx="10" fill="white" filter="url(#shadow)"/>
+  <text x="900" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">G-V-F Status</text>
+  <text x="900" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#27ae60">✓ Generator: Normal overproduction</text>
+  <text x="900" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="#27ae60">✓ Validator: Normal activity selection</text>
+  <text x="900" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#5e35b1">✗ Filter: EXCESSIVE pruning</text>
+
+  <!-- SCZ Molecular basis -->
+  <rect x="670" y="445" width="220" height="85" rx="8" fill="white" filter="url(#shadow)"/>
+  <text x="780" y="470" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#5e35b1">Molecular Basis</text>
+  <text x="780" y="490" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Increased C4 copy number</text>
+  <text x="780" y="508" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Enhanced complement activity</text>
+  <text x="780" y="526" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Overactive microglial pruning</text>
+
+  <!-- SCZ Consequences -->
+  <rect x="910" y="445" width="220" height="85" rx="8" fill="white" filter="url(#shadow)"/>
+  <text x="1020" y="470" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#5e35b1">Neural Consequences</text>
+  <text x="1020" y="490" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Reduced spine density</text>
+  <text x="1020" y="508" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Progressive gray matter loss</text>
+  <text x="1020" y="526" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">• Under-connected networks</text>
+
+  <!-- SCZ Clinical features -->
+  <rect x="670" y="545" width="460" height="85" rx="8" fill="#ede7f6" stroke="#5e35b1" stroke-width="1"/>
+  <text x="900" y="570" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#5e35b1">Clinical Manifestations</text>
+  <text x="900" y="592" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Onset in late adolescence (peak prefrontal pruning) • Working memory deficits</text>
+  <text x="900" y="612" font-family="Arial" font-size="11" text-anchor="middle" fill="#555">Cognitive decline • Positive/negative symptoms • Progressive deterioration</text>
+
+  <!-- Central comparison arrow -->
+  <text x="600" y="470" font-family="Arial" font-size="40" text-anchor="middle" fill="#95a5a6">⟷</text>
+  <text x="600" y="500" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#555">OPPOSITE</text>
+  <text x="600" y="515" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#555">FAILURES</text>
+
+  <!-- Figure caption -->
+  <text x="600" y="680" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#555">
+    Figure 2. ASD and Schizophrenia as Opposite Filter Dysfunctions
+  </text>
+</svg>
